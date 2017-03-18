@@ -1,6 +1,12 @@
 {
   "api":[
     {
+	  "name":"John Doe",
+	  "id":"0",
+	  "credit_student":100.00,
+	  "credit_family":300.00
+	},
+    {
       "name":"obed miranda",
       "id":"017770",
       "balance":300.30,

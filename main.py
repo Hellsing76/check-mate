@@ -10,11 +10,11 @@ class Application(tk.Frame):  # for there's only one frame, so this will be the 
 
     def init_window(self):
         def display_credit():
-            output = api.get_credit_with_mock(entry_id.get())
+            output = api.get_balance_with_mock(entry_id.get())
             message_box.config(text=output)
 
         entry_id = tk.Entry(self)
-        button_get = tk.Button(self, text="Get Credit", command=display_credit)
+        button_get = tk.Button(self, text="Get Balance", command=display_credit)
         message_box = tk.Label(self)
 
         self.pack(fill='both', expand=1)
